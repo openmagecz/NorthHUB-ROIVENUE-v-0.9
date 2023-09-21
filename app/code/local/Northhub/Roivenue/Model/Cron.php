@@ -35,8 +35,8 @@ class Northhub_Roivenue_Model_Cron extends Mage_Core_Model_Abstract
     const WEBCURRENCY   = "CZK";
     
     // XML FEED CONSTANTS
-    const WEBCODE       = "kneippcom";
-    const WEBSITE       = "kneipp.cz";
+    const WEBCODE       = "webcodecom";
+    const WEBSITE       = "web.com";
     const WEEKS         = 13;
     
     // MS AZURE CLOUD STORAGE ACCESS
