@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Northhub_Roivenue>
+			<version>0.9</version>
+		</Northhub_Roivenue>
+	</modules>
+	<global>
+		<models>
+    		<northhub_roivenue>
+		    	<class>Northhub_Roivenue_Model</class>
+    		</northhub_roivenue>
+    	</models>
+	</global>
+	<crontab>
+		<jobs>
+    		<roivenue_export>
+	        	<schedule>
+					<cron_expr>30 4 * * TUE</cron_expr>
+				</schedule>
+				<run>
+					<model>northhub_roivenue/cron::export</model>
+				</run>
+	    	</roivenue_export>
+		</jobs>
+	</crontab>	
+</config>

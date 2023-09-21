@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Northhub_Roivenue>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Northhub_Roivenue>
+	</modules>
+</config>
